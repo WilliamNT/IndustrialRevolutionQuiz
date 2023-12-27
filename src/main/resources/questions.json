@@ -1,0 +1,177 @@
+[
+  {
+    "question": "Mikorra tehető az ipari forradalom első időszaka?",
+    "answers": [
+      {
+        "id": "A",
+        "answer": "A 17. század második felétől a 18. század első feléig",
+        "isValid": false
+      },
+      {
+        "id": "B",
+        "answer": "A 19. század második felétől a 20. század első feléig",
+        "isValid": false
+      },
+      {
+        "id": "C",
+        "answer": "A 18. század második felétől a 19. század első feléig",
+        "isValid": true
+      },
+      {
+        "id": "D",
+        "answer": "16. század első felétől a 17. század második feléig",
+        "isValid": false
+      }
+    ]
+  },
+  {
+    "question": "Ki találta fel a gőzgépet?",
+    "answers": [
+      {
+        "id": "A",
+        "answer": "Benjamin Franklin",
+        "isValid": false
+      },
+      {
+        "id": "B",
+        "answer": "James Watt",
+        "isValid": true
+      },
+      {
+        "id": "C",
+        "answer": "Luigi Galvani",
+        "isValid": false
+      },
+      {
+        "id": "D",
+        "answer": "Leonhard Euler",
+        "isValid": false
+      }
+    ]
+  },
+  {
+    "question": "Mikor találták fel a gőzgépet?",
+    "answers": [
+      {
+        "id": "A",
+        "answer": "1742",
+        "isValid": false
+      },
+      {
+        "id": "B",
+        "answer": "1769",
+        "isValid": true
+      },
+      {
+        "id": "C",
+        "answer": "1832",
+        "isValid": false
+      },
+      {
+        "id": "D",
+        "answer": "1793",
+        "isValid": false
+      }
+    ]
+  },
+  {
+    "question": "Mikor találták fel az izzólámpát?",
+    "answers": [
+      {
+        "id": "A",
+        "answer": "1879",
+        "isValid": true
+      },
+      {
+        "id": "B",
+        "answer": "1855",
+        "isValid": false
+      },
+      {
+        "id": "C",
+        "answer": "1921",
+        "isValid": false
+      },
+      {
+        "id": "D",
+        "answer": "1811",
+        "isValid": false
+      }
+    ]
+  },
+  {
+    "question": "Ki találta fel a dízelmotort?",
+    "answers": [
+      {
+        "id": "A",
+        "answer": "Isaac Newton",
+        "isValid": false
+      },
+      {
+        "id": "B",
+        "answer": "Thomas Edison",
+        "isValid": false
+      },
+      {
+        "id": "C",
+        "answer": "Rudolf Diesel",
+        "isValid": true
+      },
+      {
+        "id": "D",
+        "answer": "Graham Bell",
+        "isValid": false
+      }
+    ]
+  },
+  {
+    "question": "Mikorra tehető nagyjából az ipari forradalom harmadik korszaka?",
+    "answers": [
+      {
+        "id": "A",
+        "answer": "19. század második felétől a 20. század első feléig",
+        "isValid": false
+      },
+      {
+        "id": "B",
+        "answer": "20. században",
+        "isValid": false
+      },
+      {
+        "id": "C",
+        "answer": "20. század második felétől a 2000-es évek végéig",
+        "isValid": true
+      },
+      {
+        "id": "D",
+        "answer": "Van olyan?",
+        "isValid": false
+      }
+    ]
+  },
+  {
+    "question": "Mikor zajlik a negyedik ipari forradalom?",
+    "answers": [
+      {
+        "id": "A",
+        "answer": "Napjainkban",
+        "isValid": true
+      },
+      {
+        "id": "B",
+        "answer": "Még nem zajlott le",
+        "isValid": false
+      },
+      {
+        "id": "C",
+        "answer": "Az előző 30 évben zajlott le",
+        "isValid": false
+      },
+      {
+        "id": "D",
+        "answer": "Volt harmadik is?",
+        "isValid": false
+      }
+    ]
+  }
+]
