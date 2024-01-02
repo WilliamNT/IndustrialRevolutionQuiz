@@ -5,12 +5,13 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Question {
     public final String text;
     public final List<Answer> answers;
 
-    private Question(String text, List<Answer> answers) {
+    public Question(String text, List<Answer> answers) {
         this.text = text;
         this.answers = answers;
     }
@@ -44,5 +45,18 @@ public class Question {
         }
 
         return questions;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Question question = (Question) o;
+        return Objects.equals(text, question.text) && Objects.equals(answers, question.answers);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(text, answers);
     }
 }

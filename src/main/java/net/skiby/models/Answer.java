@@ -5,13 +5,14 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Answer {
     public final String id;
     public final String text;
     public final boolean isValidAnswer;
 
-    private Answer(String id, String text, boolean isValidAnswer) {
+    public Answer(String id, String text, boolean isValidAnswer) {
         this.id = id;
         this.text = text;
         this.isValidAnswer = isValidAnswer;
@@ -34,5 +35,18 @@ public class Answer {
         }
 
         return answers;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Answer answer = (Answer) o;
+        return isValidAnswer == answer.isValidAnswer && Objects.equals(id, answer.id) && Objects.equals(text, answer.text);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, text, isValidAnswer);
     }
 }

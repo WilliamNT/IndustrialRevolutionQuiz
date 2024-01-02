@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3128b513-0c2f-4af5-8848-cc90a2adbb0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/skiby/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/skiby/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/skiby/models/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/skiby/models/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/skiby/repository/QuestionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/skiby/repository/impl/FileSystemQuestionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/questions.json" afterDir="false" />
+    <list default="true" id="3128b513-0c2f-4af5-8848-cc90a2adbb0b" name="Changes" comment="Fixed image embed in README.md">
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/skiby/models/AnswerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/skiby/models/QuestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/skiby/models/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/skiby/models/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/skiby/models/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/skiby/models/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,9 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2a8SGkgaof4vOxo2p0P5SJmJkze" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,9 +44,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Run.executor": "Run",
+    "JUnit.AnswerTest.executor": "Run",
+    "JUnit.QuestionTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -67,7 +64,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.skiby.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.QuestionTest">
     <configuration name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.skiby.Main" />
       <module name="IndustrialRevolution" />
@@ -75,6 +83,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnswerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndustrialRevolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.skiby.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.skiby.models" />
+      <option name="MAIN_CLASS_NAME" value="net.skiby.models.AnswerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndustrialRevolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.skiby.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.skiby.models" />
+      <option name="MAIN_CLASS_NAME" value="net.skiby.models.QuestionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QuestionTest" />
+        <item itemvalue="JUnit.AnswerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,11 +128,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703698622437</updated>
-      <workItem from="1703698623580" duration="5538000" />
+      <workItem from="1703698623580" duration="5891000" />
+      <workItem from="1703770884561" duration="264000" />
+      <workItem from="1704197219297" duration="2698000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished assignment">
+      <option name="closed" value="true" />
+      <created>1703704235930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703704235930</updated>
+    </task>
+    <task id="LOCAL-00002" summary="IDK">
+      <option name="closed" value="true" />
+      <created>1703704456690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703704456690</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added demo image">
+      <option name="closed" value="true" />
+      <created>1704197280216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704197280216</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated README.md to include demo image">
+      <option name="closed" value="true" />
+      <created>1704197389775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704197389775</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed image embed in README.md">
+      <option name="closed" value="true" />
+      <created>1704197444387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704197444387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished assignment" />
+    <MESSAGE value="IDK" />
+    <MESSAGE value="Added demo image" />
+    <MESSAGE value="Updated README.md to include demo image" />
+    <MESSAGE value="Fixed image embed in README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed image embed in README.md" />
   </component>
 </project>
